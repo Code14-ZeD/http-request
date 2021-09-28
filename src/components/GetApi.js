@@ -6,7 +6,7 @@ const GetApi = () =>{
                                          "body":"To get api"}])
     async function fetchPosts () {
         try {
-            const request = await axios.get("https://jsonplaceholder.typiicode.com/posts");
+            const request = await axios.get("https://jsonplaceholder.typicode.com/posts");
             const Data = await request.data;
             setPosts(Data);
         }
